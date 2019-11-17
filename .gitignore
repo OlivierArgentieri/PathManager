@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+/PathManager/Logs/**
+/PathManager/.idea/**
+/PathManager/Temp/**
+/PathManager/Library/**
