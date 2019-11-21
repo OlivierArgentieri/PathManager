@@ -12,7 +12,6 @@ using EditoolsUnity;
 public class PathManagerEditor : EditorCustom<PathManager>
 {
     #region f/p
-   
     #endregion
 
     #region editor methods
@@ -130,7 +129,7 @@ public class PathManagerEditor : EditorCustom<PathManager>
                 EditoolsHandle.DrawSolidDisc(path.PathPoints[j], Vector3.up, 0.1f);
                 if (j < path.PathPoints.Count - 1)
                     EditoolsHandle.DrawLine(path.PathPoints[j], path.PathPoints[j + 1]);
-                
+              
                 
             }
         }
